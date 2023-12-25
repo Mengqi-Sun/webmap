@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html  >
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.9.8, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>现代地图学-Web Map</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
+  
+  <!-- 包含 ECharts 库 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"></script>
+
+<!-- 引入 JavaScript 文件 -->
+<script src="echartsmap.js"></script>
+
+<style>
+	.spcontainer {
+		display: flex;
+		background-color: #f7f7f7;
+	}
+
+	.left {
+		flex: 40%;
+		background-color: #f7f7f7;
+		padding: 20px;
+	}
+
+	.right {
+		flex: 60%;
+		background-color: #f7f7f7;
+		padding: 20px;
+	}
+
+
+
+	.bottomDiv {
+		border: 2px solid #ccc;
+		border-radius: 10px;
+		padding: 10px;
+		background-color: #fff;
+	}
+
+</style>
+
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="header16 cid-tYcYpna6MW mbr-fullscreen mbr-parallax-background" id="header17-1r">
+  
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong><br>湖泊的颜色正在慢慢变化</strong></h1>
+        
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">湖泊是人类活动与气候变化的敏感因子，是全球环境变化与区域气候的敏感指示器和调节器。</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features6 cid-tYcXqO2IVE" id="features06-1m">
+	
+	
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 content-head">
+				<div class="mbr-section-head mb-5">
+					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>湖泊水质与水体颜色</strong></h4>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="item-img">
+						<img src="assets/images/mbr-816x544.jpg" alt="Mobirise Website Builder">
+					</div>
+					<div class="item-content">
+						
+						<p style="font-family: 'Microsoft YaHei', sans-serif; font-size: 22px; text-align: justify; line-height: 1.5;">
+							<!-- 湖泊水质的变差常常与人类活动密切相关。人类的工业、农业和城市化发展，释放大量废水、废气和固体废弃物，其中的污染物质通过雨水径流等途径进入湖泊，导致水质下降。农田中的化肥、农药、以及城市排放的废水中的有机物质，都是湖泊水质恶化的元凶。 -->
+							目前湖泊水质因流域经济发展、快速城镇化、全球气候变化，导致湖泊水体质量下降，蓝藻水华爆发频率增加，湖泊生态系统也出现了显著退化，据2017年全国调查结果显示中国共有22.1%的地表淡水为不良水体（IV级及以下）。
+						</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="item-img">
+						<img src="assets/images/mbr-1-816x544.jpg" alt="Mobirise Website Builder">
+					</div>
+					<div class="item-content">
+						
+						<p style="font-family: 'Microsoft YaHei', sans-serif; font-size: 22px; text-align: justify; line-height: 1.5;">
+							<!-- 湖泊水质下降的另一重要信号是寄生生物的增加。水体中的寄生生物通常是湖泊生态系统的平衡指标，当水质下降时，这些生物的种类和数量就会发生变化。例如，藻类过度繁殖会形成“藻华”，导致水体富营养化，破坏湖泊的生态平衡。而一些对水质敏感的鱼类和无脊椎动物可能减少或消失。 -->
+							水体颜色是太阳辐射与水中物质互作的结果，其可作为水质综合且直观的光学观察量之一，与透明度、叶绿素a（Chl-a）、悬浮物和有色溶解有机物（CDOM）等水质参数有着内在的联系，因此是水生态系统健康的一种有用综合衡量标准，也是一个可以单独管理的属性。
+						</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="item-img">
+						<img src="assets/images/mbr-2-816x544.jpg" alt="Mobirise Website Builder">
+					</div>
+					<div class="item-content">
+						
+						<p style="font-family: 'Microsoft YaHei', sans-serif; font-size: 22px; text-align: justify; line-height: 1.5;">
+							<!-- 全球变暖也对湖泊水质带来不良影响。气温升高导致湖泊水温上升，影响水体的氧气溶解能力。这使得湖泊中的底层水体缺氧，对水生生物造成威胁。另外，气温升高还促使水体中富营养化物质的释放，加剧水体富营养化的程度。 -->
+							Forel-Ule index (FUI)是水体颜色参量之一，基于海洋学中的Forel-Ule比色表发展而来，与透明度、悬浮物浓度等指标具有较好的相关性，可指示水体综合水质状况。FUI取值1-21，将水体颜色从蓝色到棕色分为21个颜色级别，可表征水体质量从良好到恶化。
+						</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- 地图容器部分 -->
+<section data-bs-version="5.1" class="video04 cid-tYd00AaiZv" id="video04-1v" style="padding-top: 0px; padding-bottom:0px">
+
+    <div class="container" style="padding-top: 0px; padding-bottom:0px">
+        <div class="mbr-section-head mb-5">
+            <h4 class="mbr-section-title mbr-fonts-style mb-0 mt-0 display-2"><strong>湖泊水质变化图</strong></h4>
+        </div>
+
+		<div class="row justify-content-center" >
+        <!-- 地图所在的块 -->
+			<div id="mapContainer" style="width: 100%; height: 720;"></div>
+		
+		</div>
+
+        <div class="row justify-content-center">
+					<iframe
+						style="width: 100%; height: 80vh; border-radius: 10px;"
+						src="https://mengqi-sun.github.io/map/"
+						frameborder="1"  
+						allowfullscreen  <!-- 允许全屏显示 -->
+					</iframe>
+        </div>
+
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features15 cid-tYcX2AheDD" id="features015-1l" style="padding-top: 50px">
+
+	<div class="spcontainer">
+        <div class="left">
+				<div style="padding-top: 0px; padding-bottom: 0px; padding-left: 20%; padding-right: 10%;">
+					<div class="item-wrapper">
+						<div class="img-wrapper">
+							<img src="assets/images/map.jpg" alt="Map Loading">
+						</div>
+
+						<!-- <div class="mbr-section-btn btn-move">
+							<a class="btn btn-primary display-7" href="https://mengqi-sun.github.io/map/"><strong>Map Page</strong></a>
+						  </div> -->
+						<div class="card-box">
+							<h4 class="card-title mbr-fonts-style mb-0 display-7">
+								<a href="https://mengqi-sun.github.io/map/" target="_blank"><strong>点击跳转地图页面</strong></a>
+							</h4>
+							<h5 style="padding-top: 10px;font-size: 20px">
+								中国大型湖库水体颜色指数<br>(2000-2020年)
+							</h5>
+	
+						</div>
+					</div>
+				</div>
+        </div>
+        <div class="right" >
+			<h5 style="padding-top:0px; padding-bottom: 0px; padding-right: 15%; padding-left: 0px;text-align: justify; line-height: 1.5;">
+				2000-2022年中国159个面积大于25km2湖泊整体呈下降趋势，仅有13.84%湖泊为显著上升趋势(0.0878±0.0618 yr−1)。具有显著性变化湖泊中，东北湖区、青藏高原湖区、蒙新高原湖区呈下降趋势湖泊比例均大于70%，东部平原湖区湖泊FUI多年较平稳，其中淮河流域湖泊多呈下降趋势，长江流域湖泊多呈增加趋势，且下游地区湖泊FUI增加趋势快。    
+				</h5>
+        </div>
+    </div>
+
+</section>
+
+<section data-bs-version="5.1" class="people01 cid-tYcZpeUizN" id="people01-1u">
+  
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-5 mb-5">
+        <h3 class="mbr-section-maintitle mbr-fonts-style mb-4 display-2"><strong>设</strong><strong>计</strong><strong>者</strong></h3>
+        <p class="mbr-section-maintext mbr-fonts-style mb-4 display-7"><br>
+        </p>
+		<h4 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7" style="font-size: 28px;line-height: 2;">
+			现代地图学2023-2024秋季<br>互联网制图</h4>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="item features-without-image">
+          <div class="item-wrapper">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <div class="align-left">
+                  <h3 class="mbr-section-title mbr-fonts-style mb-2 display-5">
+                    <strong>地图设计/网页修改：应欢畅</strong></h3>
+                  <h4 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+                    202318019410059</h4>
+                  <p class="mbr-section-text mbr-fonts-style mb-0 display-7">
+                    空天信息创新研究院<br>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item features-without-image">
+          <div class="item-wrapper">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <div class="align-left">
+                  <h3 class="mbr-section-title mbr-fonts-style mb-2 display-5"><strong>网页设计/地图修改：孙梦祺</strong></h3>
+                  <h4 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">202318019410042</h4>
+                  <p class="mbr-section-text mbr-fonts-style mb-0 display-7">空天信息创新研究院</p>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>
